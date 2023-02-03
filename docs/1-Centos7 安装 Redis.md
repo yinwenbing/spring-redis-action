@@ -108,7 +108,7 @@ protected-mode no # 该配置项表示是否开启保护模式，默认是开启
 开放端口
 
 ```
-firewall-cmd --permanent --zone=public --add-port=2181/tcp
+firewall-cmd --permanent --zone=public --add-port=6379/tcp
 // 重启防火墙
 systemctl restart firewalld
 // 查看开放端口
