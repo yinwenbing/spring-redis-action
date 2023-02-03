@@ -49,14 +49,14 @@ make install PREFIX=/usr/local/redis
 
 ### 启动
 
-*   前台启动
+* 前台启动
 
 ```shell
 cd /usr/local/redis/bin/
 ./redis-server
 ```
 
-*   后台启动
+* 后台启动
 
 将源码目录`redis-5.0.3`中的配置文件`redis-conf`复制到Redis安装目录
 
